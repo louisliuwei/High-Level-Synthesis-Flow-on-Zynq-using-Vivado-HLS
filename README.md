@@ -18,12 +18,16 @@ Board support for the PYNQ-Z1/Z2 are not included in Vivado 2018.2 by default. T
 
  {Vivado installation}\data\boards\board_files\zynq
 
-These files can be downloaded from  
+These files can be downloaded from   
 
 PYNQ-Z1:[/board_files](https://www.xilinx.com/support/documentation/university/vivado/workshops/vivado-adv-embedded-design-zynq/materials/2018x/PYNQZ1/pynq-z1.zip). 
 
 PYNQ-Z2:[/board_files](https://www.xilinx.com/support/documentation/university/vivado/workshops/vivado-adv-embedded-design-zynq/materials/2018x/PYNQZ2/pynq-z2.zip). 
 
+You should also configure the windows system enviroment variables before starting the labs
+<p align="center">
+<img src ="./images/Readme/ConfigureEnviroment.png">
+</p>
 ---
 
 ## Hardware Setup
