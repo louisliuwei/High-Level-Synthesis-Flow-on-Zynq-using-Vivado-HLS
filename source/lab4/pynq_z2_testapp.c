@@ -138,7 +138,7 @@ void filter_or_bypass_input(void)
 
 		u32DataL = Xil_In32(I2S_DATA_RX_L_REG);
 		u32DataR = Xil_In32(I2S_DATA_RX_R_REG);
-		sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR+8);
+		sw_check = Xil_In32(XPAR_AXI_GPIO_0_BASEADDR);
 		if(sw_check & 01) // SW0=1 then pass the sample through the filter
 		{
 			// send samples after shifting least significant 8 bits as the filter

@@ -4,7 +4,7 @@
 #include "xparameters.h"
 
 //Base addresses
-#define AUDIO_BASE				XPAR_ZED_AUDIO_CTRL_0_BASEADDR
+#define AUDIO_BASE				XPAR_AUDIO_CODEC_CTRL_0_BASEADDR
 
 //Slave address for the ADAU audio controller
 #define IIC_SLAVE_ADDR			0x76
